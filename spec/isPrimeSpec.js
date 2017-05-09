@@ -28,8 +28,5 @@ describe('Prime number generator', function () {
     it('throws number must be greater than 0 for a negative input', function () {
         expect(isPrime(-10)).toThrow("Number must be greater than 0");
     });
-    it('throws input a number for a list input', function () {
-        expect(isPrime([5])).toThrow("Input a number");
-    });
-
+ 
 });

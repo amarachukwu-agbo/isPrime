@@ -1,0 +1,14 @@
+{
+  "name": "generate_prime",
+  "version": "1.0.0",
+  "description": "A function that generates prime numbers to n",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "jasmine spec/test.js"
+  },
+  "author": "Agbo Amarachukwu",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
